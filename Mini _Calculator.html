@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mini Calculator</title>
+        <style>
+            .dis{
+                width: 230px;
+                height: 40px;
+                margin-bottom: 30px;
+                border-radius: 2px;
+                border: 1px solid gray;
+            }
+            #calculator>div{
+                width:40%;
+                height: 70%;
+                margin: auto;
+                display: flex;
+                justify-content: space-around;
+            }
+            button{
+                width: 100px;
+                height: 30px;
+                border-radius: 2px;
+                background-color: rgb(255, 252, 252);
+                border: 1px solid rgb(122, 121, 121);
+                cursor: pointer;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="calculator">
+            <div>
+                <input type = "number" class="dis" placeholder="enter 1st Number" />
+                <input type = "number" class="dis" placeholder="enter 2nd Number" />
+            </div>
+            <div>
+                <button >Add</button>
+                <button >Subtract</button>
+                <button  onclick="Click()">Multiply</button>
+                <button onclick="Click2()">Divide</button>
+            </div>
+        </div>
+    </body>
+</html>
+<script>
+    let buttontag = document.button
+    function Click()
+    {
+        if (2*4)
+        alert(8)
+
+    }
+    function Click2()
+    {
+        if (8/4)
+        alert(2)
+    }
+</script>
